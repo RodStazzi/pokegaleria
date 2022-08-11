@@ -31,5 +31,6 @@ const server = http.createServer(async (request, response) => {
 });
 
 server.listen(port, () => {
-  console.log(`http://localhost:${port}`);
+  //console.log(`http://localhost:${port}`);
+  console.log(`https://clever-lamington-b8b0da.netlify.app`);
 });
